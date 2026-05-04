@@ -1,0 +1,16 @@
+package doctor;
+import java.util.ArrayList;
+
+public class Hospital {
+    private String nombre;
+    private ArrayList<Doctor> doctores;
+
+    public Hospital(String nombre) {
+        this.nombre = nombre;
+        this.doctores = new ArrayList<>();
+    }
+
+    public void agregarDoctor(Doctor d) {
+        doctores.add(d);
+    }
+}
