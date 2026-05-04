@@ -1,0 +1,16 @@
+package doctor;
+import java.util.ArrayList;
+
+public class Diagnostico {
+    private String descripcion;
+    private ArrayList<Enfermo> enfermos;
+
+    public Diagnostico(String descripcion) {
+        this.descripcion = descripcion;
+        this.enfermos = new ArrayList<>();
+    }
+
+    public void agregarEnfermo(Enfermo e) {
+        enfermos.add(e);
+    }
+}
