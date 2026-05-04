@@ -1,0 +1,11 @@
+package doctor;
+
+public class Enfermo {
+    private String nombre;
+    private String enfermedad;
+
+    public Enfermo(String nombre, String enfermedad) {
+        this.nombre = nombre;
+        this.enfermedad = enfermedad;
+    }
+}
