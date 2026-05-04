@@ -1,0 +1,20 @@
+ package doctor;
+
+public class Main{
+    public static void main(String[] args) {
+
+        // Hospital y doctores
+        Hospital hospital = new Hospital("Hospital Central");
+        Doctor d1 = new Doctor("Juan", "Cardiología");
+        hospital.agregarDoctor(d1);
+
+        // Turno y citas
+        Turno turno = new Turno("T1");
+        turno.agregarCita("10/05/2026", "10:00");
+
+        // Diagnóstico y enfermos
+        Diagnostico diag = new Diagnostico("Gripe");
+        Enfermo e1 = new Enfermo("Carlos", "Gripe");
+        diag.agregarEnfermo(e1);
+    }
+}
