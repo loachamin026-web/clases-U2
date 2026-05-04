@@ -1,5 +1,3 @@
-# clases-U2
-Proyecto en Java U2
 package doctor;
 
 public class Cita {
